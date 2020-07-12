@@ -34,3 +34,9 @@ var hindi7={
     "sent7":["एक बड़ी सी किताब वहाँ है","एक बड़ी सी किताब है वहाँ","बड़ी सी एक किताब वहाँ है"," बड़ी सी एक किताब है वहाँ","वहाँ है एक बड़ी सी किताब","वहाँ है बड़ी सी एक किताब"," है वहाँ एक बड़ी सी किताब","है वहाँ बड़ी सी एक किताब"]
 };
 
+function sub(){
+    var x="<br><br><center><b>Form a sentence (Declarative or Interrogative or any other type)form the given words</b><br><i>(select the buttons in proper order)</i> </center>";
+    var d= x.fontcolor("blue");
+    var e=d.fontsize(4);
+   document.getElementById("demo").innerHTML=e; 
+}
